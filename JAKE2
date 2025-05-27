@@ -1,0 +1,11 @@
+# Clone o novo repositório
+git clone https://github.com/plantafacil/Jake.git
+cd Jake
+
+# Copie os arquivos do projeto pra dentro dessa pasta
+cp -r ../planta-facil-enterprise-pack/* ./
+
+# Git deploy
+git add .
+git commit -m "Deploy: Enterprise Pack com IA, Email, Notificações, Estoque, Admin"
+git push origin main
